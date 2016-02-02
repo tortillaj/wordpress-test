@@ -1,0 +1,8 @@
+assets:
+  - wordpress.sql.gz
+steps:
+  - name: Test Build
+    plugin: Wordpress
+    subDirectory: 'www'
+    database: wordpress.sql.gz
+    databaseGzipped: true
