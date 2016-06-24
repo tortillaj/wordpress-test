@@ -1,6 +1,12 @@
 assets:
   - wordpress.sql.gz
 steps:
+  - name: Testing
+    plugin: Shell
+    command: 'true 
+      echo "That exited $?"
+      false
+      echo "That exited $?"'
   - name: Testing1
     plugin: Shell
     command: true ; echo "That exited $?"
