@@ -3,7 +3,8 @@ assets:
 steps:
   - name: Failure
     plugin: Shell
-    command: curl nonsense 
+    command: |
+      curl nonsense 
       echo "Nar"
   - name: Testing
     plugin: Shell
