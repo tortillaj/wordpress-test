@@ -1,9 +1,9 @@
 assets:
   - wordpress.sql.gz
 steps:
-  - name: Testing
+  - name: Failure
     plugin: Shell
-    command: 'false'
+    command: blarg
   - name: Testing
     plugin: Shell
     command: 'true 
