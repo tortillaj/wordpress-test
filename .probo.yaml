@@ -1,14 +1,14 @@
 assets:
   - wordpress.sql.gz
 steps:
-  - name: Test Build
-    plugin: WordPressApp
-    subDirectory: 'www'
-    database: wordpress.sql.gz
-    databaseGzipped: true
   - name: Testing
     script: |
       true
       echo "That exited $?"
       false
       echo "That exited $?"
+  - name: Test Build
+    plugin: WordPressApp
+    subDirectory: 'www'
+    database: wordpress.sql.gz
+    databaseGzipped: true
