@@ -3,7 +3,8 @@ assets:
 steps:
   - name: Failure
     plugin: Shell
-    command: blarg ; echo "Nar"
+    command: blarg 
+      echo "Nar"
   - name: Testing
     plugin: Shell
     command: 'true 
