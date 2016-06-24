@@ -3,6 +3,9 @@ assets:
 steps:
   - name: Testing
     plugin: Shell
+    command: 'false'
+  - name: Testing
+    plugin: Shell
     command: 'true 
       echo "That exited $?"
       false
