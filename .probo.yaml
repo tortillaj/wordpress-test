@@ -6,3 +6,5 @@ steps:
     subDirectory: 'www'
     database: wordpress.sql.gz
     databaseGzipped: true
+    updatePlugins: true
+    databaseName: woodpress
