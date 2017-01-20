@@ -1,7 +1,7 @@
 assets:
   - wordpress.sql.gz
 steps:
-  - name: Test Build.
+  - name: Test Build process.
     plugin: WordPressApp
     subDirectory: 'www'
     database: wordpress.sql.gz
